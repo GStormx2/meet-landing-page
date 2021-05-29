@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .green-button {
+        width: 193px;
+        height: 58px;
+        @apply text-white text-overline font-semibold bg-cgreen-dark rounded-full hover:bg-cgreen-light;
+    }
+    .purple-button {
+        width: 139px;
+        height: 58px;
+        @apply text-white text-overline font-semibold bg-cpurple-dark rounded-full hover:bg-cpurple-light;
+    }
+    .pendulum {
+        width: 56px;
+        height: 56px;
+        top: 112px;
+        @apply flex justify-center items-center text-cgray text-overline font-black text-center bg-cwhite border border-pendulum rounded-full;
+    } 
+}
